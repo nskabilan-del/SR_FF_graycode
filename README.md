@@ -190,8 +190,10 @@ run -all
 
 ## Tools Used
 Language:Verilog HDL
+
 Simulator: ModelSim / QuestaSim
-code editor: Gvim
+
+Code editor: Gvim
 
 
 ---
