@@ -1,5 +1,5 @@
-`include "srff.v"
-module srffgray1(clk,rst,c);
+`include "SR_ff.v"
+module SR_ff_graycode(clk,rst,c);
 input clk,rst;
 output  [2:0]c;
 
@@ -12,7 +12,7 @@ and g4(n4,c[2],c[0]);
 xnor g5(n5,c[2],c[1]);
 xor g6(n6,c[2],c[1]);
 
-srff u2(clk,rst,n1,n2,c[2]);
-srff u1(clk,rst,n3,n4,c[1]);
-srff u0(clk,rst,n5,n6,c[0]);
+SR_ff u2(clk,rst,n1,n2,c[2]);
+SR_ff u1(clk,rst,n3,n4,c[1]);
+SR_ff u0(clk,rst,n5,n6,c[0]);
 endmodule

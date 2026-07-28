@@ -1,8 +1,8 @@
-`include "srffgray1.v"
-module tb_srffgray1;
+`include "SR_ff_graycode.v"
+module tb_SR_ff_graycode;
 reg clk,rst;
 wire  [2:0]c;
-srffgray1 dut (clk,rst,c);
+SR_ff_graycode dut (clk,rst,c);
  
  initial begin
  clk=0;

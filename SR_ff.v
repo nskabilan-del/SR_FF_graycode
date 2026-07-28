@@ -1,4 +1,4 @@
-module srff(clk,rst,s,r,q);
+module SR_ff(clk,rst,s,r,q);
 input clk,rst;
 input s,r;
 output reg q;
