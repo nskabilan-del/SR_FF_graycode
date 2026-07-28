@@ -189,9 +189,11 @@ run -all
 ---
 
 ## Tools Used
--Language:Verilog HDL
--Simulator: ModelSim / QuestaSim
--code editor: Gvim
+Language:Verilog HDL
+
+Simulator: ModelSim / QuestaSim
+
+Code editor: Gvim
 
 
 ---
@@ -199,4 +201,4 @@ run -all
 ## Author
 **Kabilan N S**
 
--Digital Design | RTL Design | Verilog HDL | VLSI Design & Verification
+Digital Design | RTL Design | Verilog HDL | VLSI Design & Verification
